@@ -17,15 +17,16 @@
     </properties>
 
     <scm>
-        <connection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</connection>
-        <developerConnection>scm:git:git@github.com:kalaspuffar/VersioningDemo.git</developerConnection>
-        <url>https://github.com/kalaspuffar/VersioningDemo</url>
+        <connection>scm:git:git@github.com:dafm96/VersioningDemo.git</connection>
+        <developerConnection>scm:git:git@github.com:dafm96/VersioningDemo.git</developerConnection>
+        <url>https://github.com/dafm96/VersioningDemo</url>
         <tag>@{project.version}</tag>
     </scm>
 
     <build>
         <plugins>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <version>3.0.0</version>
                 <configuration>
