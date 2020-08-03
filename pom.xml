@@ -16,6 +16,13 @@
         <archetype.encoding>${encoding}</archetype.encoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:dafm96/VersioningDemo.git</connection>
+        <developerConnection>scm:git:git@github.com:dafm96/VersioningDemo.git</developerConnection>
+        <url>https://github.com/dafm96/VersioningDemo</url>
+        <tag>@{project.version}</tag>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
